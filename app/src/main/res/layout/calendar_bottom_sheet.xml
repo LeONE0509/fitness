@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheet"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_background">
+
+    <View
+        android:layout_width="375dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/innerTopLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:paddingTop="0dp"
+        android:paddingStart="19.67dp"
+        android:paddingEnd="16dp">
+
+        <ImageView
+            android:id="@+id/close_ic_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_close"/>
+
+        <TextView
+            android:layout_width="114dp"
+            android:layout_height="23dp"
+            android:layout_weight="55"
+            android:fontFamily="@font/vela_sans_bold"
+            android:gravity="center_horizontal|top"
+            android:text="@string/chooseDate"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="22dp"/>
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="22dp"
+            android:layout_weight="18"
+            android:paddingLeft="25dp"
+            android:text="@string/today"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dayOfWeeksLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="34.5dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="27dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/monday"
+            android:textSize="12sp"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/vela_sans_bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tuesday"
+            android:textSize="12sp"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/vela_sans_bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wednesday"
+            android:textSize="12sp"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/vela_sans_bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/thursday"
+            android:textSize="12sp"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/vela_sans_bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/friday"
+            android:textSize="12sp"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/vela_sans_bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/saturday"
+            android:textSize="12sp"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/vela_sans_bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sunday"
+            android:textSize="12sp"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/vela_sans_bold"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="479dp"
+        android:background="@color/black"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="3dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rc_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28.76dp"
+            android:layout_marginEnd="30.24dp"
+            />
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <Button
+        android:id="@+id/showButton"
+        style="@style/showButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/orange"
+
+
+        android:text="@string/show"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+
+        android:layout_margin="16dp"
+        android:paddingTop="27dp"
+        android:paddingBottom="27dp"/>
+
+
+</LinearLayout>

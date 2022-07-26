@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">fitness</string>
+    <string name="chooseDate">Выбрать дату</string>
+    <string name="today">Сегодня</string>
+    <string name="sunday">ВС</string>
+    <string name="saturday">СБ</string>
+    <string name="friday">ПТ</string>
+    <string name="thursday">ЧТ</string>
+    <string name="wednesday">СР</string>
+    <string name="tuesday">BT</string>
+    <string name="monday">ПН</string>
+    <string name="show">Показать</string>
+    <string name="monthRate">Рейтинг месяца</string>
+    <string name="rate_place">$your place$</string>
+    <string name="name">$name$</string>
+    <string name="steps">$your steps$</string>
+    <string name="step">шаг</string>
+    <string name="firstPlace">1 место</string>
+    <string name="secondPlace">2 место</string>
+    <string name="thirdPlace">3 место</string>
+    <string name="place">место</string>
+    <string name="others228users">Другие 228 пользователей</string>
+    <string name="January2022">Январь 2022</string>
+</resources>

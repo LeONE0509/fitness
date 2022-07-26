@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.231" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.327" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/button.xml" value="0.2305" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/button_background.xml" value="0.342" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/day_of_calendar.xml" value="0.234" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/ic_calendar.xml" value="0.182" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/ic_close.xml" value="0.226" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/ic_launcher_background.xml" value="0.231" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/ic_return.xml" value="0.234" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/leaderboard_second_place.xml" value="0.273" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/month_of_calendar.xml" value="0.234" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/drawable/rounded.xml" value="0.3635" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/font/vela_sans.xml" value="0.3927083333333333" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/font/vela_sans_bold.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/layout/activity_leaderboard.xml" value="0.3625" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/layout/calendar_bottom_sheet.xml" value="0.29379485014774165" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/layout/calendar_cell.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/layout/calendar_day.xml" value="0.3625" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/layout/layout_bottom_sheet.xml" value="0.3625" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/layout/leaderboard_bottom_sheet.xml" value="0.3788546255506608" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/layout/month_item.xml" value="0.3554987212276215" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/layout/user_item.xml" value="0.48337950138504154" />
+        <entry key="..\:/Users/freed/AndroidStudioProjects/fitness/app/src/main/res/layout/winners.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

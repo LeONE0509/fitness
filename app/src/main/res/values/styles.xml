@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="showButtonStyle" >
+        <item name="android:background">@drawable/button</item>
+        <item name="android:radius">22dp</item>
+    </style>
+
+    <style name="dayOfCalendar" >
+        <item name="android:background">@drawable/button</item>
+        <item name="android:radius">40dp</item>
+    </style>
+
+
+
+</resources>

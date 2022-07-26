@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    android:id="@+id/globalScrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:id="@+id/leaderboard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_background">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/return_ic_button"
+            android:layout_width="wrap_content"
+            android:layout_height="13dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_return"/>
+
+        <TextView
+            android:id="@+id/tv_month_rate"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:fontFamily="@font/vela_sans_bold"
+            android:text="@string/monthRate"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34.5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/secondPlace"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="20dp"
+            tools:cardBackgroundColor="@color/white"
+            tools:cardCornerRadius="22dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="22dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/secondPlace"
+                    android:textColor="@color/light_black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/secondPlace_avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/place2" />
+
+                <TextView
+                    android:id="@+id/secondPlace_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/name"
+                    android:textColor="@color/light_black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/secondPlace_steps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/steps"
+                    android:textColor="@color/light_black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/step"
+                    android:textColor="@color/light_black"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/thirdPlace"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="20dp"
+            tools:cardBackgroundColor="@color/white"
+            tools:cardCornerRadius="22dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="14dp"
+
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/thirdPlace"
+                    android:textColor="@color/light_black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/thirdPlace_avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/place3" />
+
+                <TextView
+                    android:id="@+id/thirdPlace_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/name"
+                    android:textColor="@color/light_black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/thirdPlace_steps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/steps"
+                    android:textColor="@color/light_black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/step"
+                    android:textColor="@color/light_black"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/firstPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="285dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            tools:cardCornerRadius="22dp"
+            tools:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/firstPlace"
+                    android:textColor="@color/light_black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/firstPlace_avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/place1" />
+
+                <TextView
+                    android:id="@+id/firstPlace_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/name"
+                    android:textColor="@color/light_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/firstPlace_steps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/steps"
+                    android:textColor="@color/light_black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/vela_sans_bold"
+                    android:gravity="center"
+                    android:text="@string/step"
+                    android:textColor="@color/light_black"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical"
+            android:clipToPadding="false">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rc_winners"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layoutManager="LinearLayoutManager" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/others228users"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:fontFamily="@font/vela_sans_bold"
+                android:layout_marginTop="12dp"
+                android:gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+
+        android:id="@+id/me"
+        layout="@layout/user_item"/>
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
