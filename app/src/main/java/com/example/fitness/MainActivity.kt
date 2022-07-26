@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity() {
             monthAdapter.addMonth(March2022)
 
         }
+        "GJITJ"
 
         // LeaderBottomSheet
         val LeaderboardBottomSheetView = LayoutInflater.from(applicationContext).inflate(
